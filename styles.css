@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*barra de navegação*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; 
+}
+
+div{
+    display: flex;
+    text-align: center;
+}
+li, a, button{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px 20px;
+
+}
+
+.logo{
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+.nav__links{
+    list-style: none;
+    
+}
+
+.nav__links li{
+    display:inline-block;
+    padding: 0px 20px;
+    
+}
+
+.nav__links li, a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.nav__links li, a:hover {
+    transition: all 0.3s ease 0s;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgb(255, 153, 1);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color:rgb(253, 255, 128);
+
+}
+
+/*corpo home*/
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+label{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: white;
+    background-color:orange;
+    margin: 15px;
+}
+
+input{
+    align-items:left;
+    color: white;
+}
+
+.banner1{
+    padding: 50px;
+    text-align: center;
+
+}
+
+h1{
+    padding: 100px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color:#edf0f1;
+    font-size: 50px;
+
+}
+
+h2{
+    padding-top: 100px;
+    font-family: 'Bebas Neue', cursive;
+    color:#edf0f1;
+    font-size: 50px;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 100px;
+    font-size: 40px;
+}
+
+h4{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 40px;
+    border: 10px;
+    margin-top: 90px;
+}
+
+/*TEXT AND IMG 1 */
+
+.texttab{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 25px;
+    color: #edf0f1;
+    padding-right: 150px;
+}
+
+.GMbanner{  
+    padding-top: 50px;
+}
+
+/* TEXT AND IMG 2 */
+
+
+.GMbanner2{
+    padding-top: 200px;
+    margin-right: 50px;
+}
+
+.texttab2{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 25px;
+    color: #edf0f1;
+    padding-right: 150px;
+    padding-top: 100px;
+}
+
+
+/* rodape */
+
+.rodapeimg{
+    padding-top: 200px;
+    padding-right: 50px;
+    transform: translateY(290%);
+
+}
+
+.rodapetext{
+    padding-top: 200px;
+    color: white;
+    transform: translateY(290%);
+}
+
+/*404 error */
+
+.errorfor{
+    position: relative;
+    top: 10px;
+    border-radius: 50%;
+    size:10%;
+}
+
+/* sobre */
+
+.sobretext{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* contato */
+
+.fontcontato{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+
+.fontcontato:hover{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: purple;
+}
+
+/*Donate cadrastro*/
+
+.divcadastro{
+    border: orange;
+    border-radius: 30px;
+    background-color: orange;
+    margin-top: 5%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: sticky;
+}
+
+.cadastroposition{
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.submitebotton{
+    padding: 9px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 12px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 40%;
+    transform: translateX(-55%);
+}
+.submitebotton:hover{
+ background-color: purple;
+}
+
+/* text catalogo and img*/
+
+.tittlecatalogo{
+    margin-left: 100px;
+}
+
+.catalogotext1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: white;
+    margin-left: 100px;
+}
+
+.catalogoimg{
+    margin-left: 250px;
+}
+
+/*cores nav bar*/
+
+.purple{
+    color: purple;
+}.purple2:hover{
+    color: purple;
+}
+.orange{
+    color: orange;
+}
+
+.orange:hover{
+    color: orange;
+}
