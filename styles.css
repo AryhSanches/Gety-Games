@@ -9,10 +9,7 @@
     background-color: #000000; 
 }
 
-div{
-    display: flex;
-    text-align: center;
-}
+
 li, a, button{
     font-family: 'Bebas Neue', cursive;
     font-weight: 500;
@@ -68,10 +65,26 @@ button:hover{
 
 }
 
-/*corpo home*/
+/*body*/
 
 ::-webkit-scrollbar{
     display: none;
+}
+
+p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: white;
+}
+
+div{
+    margin: auto;
+}
+
+footer{
+    display: flex;
+    margin: auto;
+    text-align: center;
 }
 
 label{
@@ -85,12 +98,6 @@ label{
 input{
     align-items:left;
     color: white;
-}
-
-.banner1{
-    padding: 50px;
-    text-align: center;
-
 }
 
 h1{
